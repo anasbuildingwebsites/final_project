@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    background-color: #f1ebe1;
+}
+
+header {
+    text-align: center;
+}
+
+.header-title {
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    color: #44624a;
+    font-size: 36px;
+    font-weight: bold;
+    transform: translateY(0) translateX(0);
+    margin-top: 10px;
+}
+
+.header-title:hover {
+    transform: translateX(200px);
+    transition: linear 1s;
+}
+
+.header-title:hover::before {
+    display: inline-block;
+    content: '💻';
+}
+
+.header-title:hover::after {
+    display: inline-block;
+    content: '🤓';
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c0cfb2;
+    margin-left: 15px;
+    background-color: #44624a;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    color: #44624a;
+    background-color: #8ba888;
+}
+
+.sites:hover::after {
+    content: '💯';
+}
+
+.info:hover::after {
+    content: '🔍';
+}
+
+h3 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card-item {
+    background-color: #8ba888;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.card-item img, .tool-item img {
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.tools {
+    display: flex;
+}
+
+.tool {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tool-item {
+    background-color: #8ba888;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
