@@ -1,13 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: #f1ebe1;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap; /* Allows wrapping */
-    justify-content: center; /* Aligns items in the center */
-    gap: 20px; /* Adds space between items */
+    width: 100%;
 }
 
 header {
