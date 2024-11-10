@@ -288,3 +288,35 @@ ul li::before {
 .article:hover {
   box-shadow: 10px 0 0 #44624a;
 }
+
+.tips, .tools {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out, color 0.3s ease;
+}
+
+.tips:hover, .tools:hover {
+  transform: translateY(-10px); 
+  color: #9788B2; 
+}
+
+.tool-descr::before {
+  content: "🛠️ ";  
+  font-size: 24px; 
+  margin-right: 8px;
+}
+
+.tool-descr a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #44624a;
+}
+
+.tool-descr a:hover {
+    color: #8ba888;
+    background-color: #44624a;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
