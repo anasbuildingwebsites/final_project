@@ -8,6 +8,10 @@ header {
     text-align: center;
 }
 
+main {
+    justify-content:center;
+}
+
 .header-title {
     display: inline-block;
     align-items: center;
