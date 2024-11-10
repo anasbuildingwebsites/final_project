@@ -3,6 +3,10 @@ body {
     background-color: #f1ebe1;
 }
 
+main {
+    display:flex;
+}
+
 header {
     text-align: center;
 }
