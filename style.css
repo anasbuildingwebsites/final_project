@@ -129,3 +129,112 @@ footer img {
     margin-right: 10px;
 }
 
+
+.link-header {
+  text-decoration: none;
+  color: #c0cfb2;
+  margin-left: 15px;
+  background-color: #44624a;
+  padding: 10px 15px 10px 15px;
+  border-radius: 15px;
+}
+
+header a:hover {
+  color: #44624a;
+  background-color: #8ba888;
+}
+
+header a:hover::after {
+  content: "👀";
+}
+
+header h1 {
+  text-align: center;
+  color: #44624a;
+}
+
+header h1:hover {
+  transform: rotate(180deg);
+}
+
+main {
+  display: flex;
+  margin-top: 35px;
+}
+
+main h1{
+  color: #44624a;
+}
+.details {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-weight: bold;
+}
+
+.picture {
+  width: 500px;
+}
+
+.birthday .value:hover::before {
+  content: '🎂';
+  padding-right: 5px;
+}
+
+ul {
+  list-style-type: none; 
+  padding-left: 0;
+}
+
+ul li::before {
+  content: '💖'; 
+  padding-right: 8px;
+}
+
+
+.picture img {
+  box-shadow: 20px 0 0px 10px #44624a;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.picture img:hover {
+   animation: fadeInOut 5s linear infinite; 
+}
+
+@keyframes rotate {
+  from {
+  transform: rotate(0deg);
+  }
+  to {
+  transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+  transform: translateY(0); 
+  }
+  50% {
+  transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+  opacity: 0; 
+  }
+  50% {
+  opacity: 1; 
+  }
+  100% {
+  opacity: 0;
+  }
+}
+
